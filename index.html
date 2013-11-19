@@ -3,7 +3,7 @@ layout: default
 slider: true
 ---
 
-
+{% if slider %}
 <div class="slider">
 <div class="flexslider">
   <ul class="slides">{% for slider in site.sliders %}
@@ -22,6 +22,8 @@ slider: true
     }
 </script>
 
+{% endif %}
+
 
 {% for post in paginator.posts  %}          
             <div class="post excerpt ">
@@ -33,18 +35,7 @@ slider: true
                   </a>
                 </h2>
                 <div class="post-info">
-                  Posted in
-                  <a href="http://demo.mythemeshop.com/justblue/category/apple/" title="View all posts in Apple"
-                  rel="nofollow">
-                    Apple
-                  </a>
-                  ,
-                  <a href="http://demo.mythemeshop.com/justblue/category/google/" title="View all posts in Google"
-                  rel="nofollow">
-                    Google
-                  </a>
-                  {% if post.author %}by {{ post.author }}{% endif %}
-                  On {{ post.date | date_to_string }}
+                  发布于{{ post.date | date: "%Y 年 %m 月 %d 日" }} | <span class="ds-thread-count" data-thread-key="{{ post.id }}"></span>
                 </div>
               </header>
               <!--.header-->
@@ -73,16 +64,16 @@ slider: true
            
   
 <div class="paging">
-		{% if paginator.next_page %}
-			<a class="prev" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; 前一页</a>
-		{% endif %}
-				<!--<a href="{{ site.baseurl }}/archive">所有文章</a> -->
-		{% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-				<a class="next" href="{{ site.baseurl }}/">后一页 &rarr;</a>
-			{% else %}
-				<a class="next" href="{{ site.baseurl }}/page{{paginator.previous_page}}">后一页 &rarr;</a>
-			{% endif %}
-		{% endif %}
+    {% if paginator.next_page %}
+      <a class="prev" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; 前一页</a>
+    {% endif %}
+        <!--<a href="{{ site.baseurl }}/archive">所有文章</a> -->
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="next" href="{{ site.baseurl }}/">后一页 &rarr;</a>
+      {% else %}
+        <a class="next" href="{{ site.baseurl }}/page{{paginator.previous_page}}">后一页 &rarr;</a>
+      {% endif %}
+    {% endif %}
 </div>
          

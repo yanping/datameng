@@ -28,6 +28,10 @@ links:
     - url: "http://cos.name"
       name: 统计之都
       title: 中国统计学门户网站
+      
+    - url: "http://ismartdata.com"
+      name: 智数营
+      title: 中国最权威的大数据培训机构
 
 sliders:
     - img: p3.jpg

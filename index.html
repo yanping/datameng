@@ -1,9 +1,8 @@
 ---
 layout: default
-slider: true
 ---
 
-{% if slider %}
+
 <div class="slider">
 <div class="flexslider">
   <ul class="slides">{% for slider in site.sliders %}
@@ -22,7 +21,7 @@ slider: true
     }
 </script>
 
-{% endif %}
+
 
 
 {% for post in paginator.posts  %}          

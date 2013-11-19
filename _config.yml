@@ -21,8 +21,8 @@ author :
   github : 
   twitter : 
 
-baseurl: /datameng
-product_url: http://yanping.me/salon
+baseurl: 
+product_url: http://datameng.com
   
 links:
     - url: "http://yanping.me/"

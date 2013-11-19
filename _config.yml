@@ -13,7 +13,7 @@ paginate: 5
 # so be sure to set them if your theme uses them.
 #
 title : 数据科学家联盟
-tagline: Data Science and R
+tagline: Data Science Union
 description: 
 author :
   name : 
@@ -22,7 +22,7 @@ author :
   twitter : 
 
 baseurl: 
-product_url: http://idatasci.org
+product_url: http://datameng.com
   
 links:
     - url: "http://cos.name"

@@ -78,3 +78,32 @@ a.flex-prev, a.flex-next{ -webkit-transition: none; -moz-transition: none; trans
   .bottom-logo{display: none;}
   .company-intro{width: 100%;}
 }
+
+
+.company{
+  clear:both;
+}
+
+.com-logo{
+ float: left;
+ clear:left; 
+ width: 30%;
+}
+
+.com-intro{
+ float: left;
+ margin-top: 5px;
+ margin-left: 2%;
+ clear: right; 
+ width: 68%;
+}
+
+@media screen and (max-width:865px){  
+    .com-logo{
+     width: 100%;
+    }
+
+    .com-intro{
+     width: 100%;
+    }  
+}

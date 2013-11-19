@@ -2,17 +2,18 @@
           <div id="sidebars" class="g">
             <div class="sidebar">
               <ul class="sidebar_list">
+              {% if page.intro %}
                 <li class="widget widget-sidebar">
                   <h3>
-                    关于我们
+                    关于数盟
                   </h3>
                   <div class="sidebar-text">
-                      我们是中国的数据科学社区。
-                  </div>
+                  数盟，即“数据科学家联盟”，数盟社区是一个资源整合共享平台，专注于数据科学，关注R、数据挖掘、统计分析、机器学习、大数据等技术  ，社区理念：开放、包容，以技术驱动社会进步。数盟社区已与众多企业、团队、个人建立了良好的合作关系， 我们希望能与更多企业、团队、个人建立良好合作，共同构建一个完整健康的数据科学生态圈。查看<a href="{{ site.baseurl}}/about-us/">详细介绍</a>。</div>
                 </li>
+               {% endif %}
                 <li class="widget widget-sidebar">
                   <h3>
-                    Sponsor
+                    赞助商
                   </h3>
                   <div class="ad-300">
                     <a href="http://supstat.com/" target="_blank" >

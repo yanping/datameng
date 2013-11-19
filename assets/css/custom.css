@@ -92,7 +92,6 @@ a.flex-prev, a.flex-next{ -webkit-transition: none; -moz-transition: none; trans
 
 .com-intro{
  float: left;
- margin-top: 5px;
  margin-left: 2%;
  clear: right; 
  width: 68%;

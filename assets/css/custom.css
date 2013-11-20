@@ -64,6 +64,11 @@ a.flex-prev, a.flex-next{ -webkit-transition: none; -moz-transition: none; trans
     padding: 0 0 5px 0;
 }
 
+body {
+  /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+    font-family: "Source Sans Pro", Helvetica, "微软雅黑", "Microsoft YaHei", "宋体", sans-serif;
+}
+
 .bottom-logo{width: 30%; float:left}
 .company-intro{width: 70%; float: left}
 

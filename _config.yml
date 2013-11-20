@@ -41,4 +41,12 @@ sliders:
     - img: instructors.jpg
       url: /about-us/
       caption: "数盟讲师团"
+
+    - img: instructor1.jpg
+      url: /about-us/
+      caption: "数盟讲师团"
+
+    - img: instructor2.jpg
+      url: /about-us/
+      caption: "数盟讲师团"
       

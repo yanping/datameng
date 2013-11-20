@@ -8,7 +8,7 @@ intro: true
 <div class="flexslider">
   <ul class="slides">{% for slider in site.sliders %}
     <li>
-    <a href="{{site.baseurl}}{{ slider.url }}" target="_blank"><img src="{{site.baseurl}}/assets/images/slider/{{ slider.img }}" /><p class="flex-caption">{{ slider.caption }}</p></a>
+    <a href="{{site.baseurl}}{{ slider.url }}" target="_blank"><img src="{{site.baseurl}}/assets/images/slider/{{ slider.img }}" />{% comment %}<p class="flex-caption">{{ slider.caption }}</p>{% endcomment %}</a>
     </li>{% endfor %}
   </ul>
 </div>
@@ -53,7 +53,7 @@ intro: true
                   <p class="readMore">
                     <a href="{{ site.baseurl}}{{ post.url }}"
                     rel="nofollow">
-                      Read More
+                      查看详情
                     </a>
                   </p>
                 </div>

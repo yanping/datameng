@@ -90,7 +90,7 @@ var jiathis_config={
        
         $(document).ready(function(){             
 
-            $('.posts a').each(function(index,element){
+            $('a').each(function(index,element){
                 var href = $(this).attr('href');
                 if(href.indexOf('#') == 0){
                 }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('datameng.com')>-1 ){

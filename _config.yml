@@ -31,7 +31,11 @@ links:
       
     - url: "http://ismartdata.com"
       name: 智数营
-      title: 中国最权威的大数据培训机构
+      title: 中国最权威的数据科学家培训机构
+      
+    - url: "http://www.lagou.com"
+      name: 拉勾网
+      title: 互联网招聘
 
 sliders:
     - img: dsu201311.jpg

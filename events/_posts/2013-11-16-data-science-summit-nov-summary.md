@@ -9,6 +9,6 @@ img:
 史东杰_fluentd日志收集系统实战： <http://t.cn/8kvKiBC>  
 
 ###PPT下载###
-马延辉_SQL on HBase.pdf"： <http://t.cn/8DsRzwL>  
-马延辉_SQL on HBase.pdf"：  <http://t.cn/8DsR7Dh>  
-史东杰_fluentd日志收集实战.pdf"：   <http://t.cn/8DsR7yE>  
+马延辉_SQL on HBase.pdf： <http://t.cn/8DsRzwL>  
+马延辉_SQL on HBase.pdf：  <http://t.cn/8DsR7Dh>  
+史东杰_fluentd日志收集实战.pdf：   <http://t.cn/8DsR7yE>  

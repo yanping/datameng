@@ -16,4 +16,7 @@ title: 关于数盟
 
 QQ群：数盟【总舵】321311420，数盟【大数据分舵】272089418  
 网站：<http://datameng.com>  
-官方邮箱：contact@datameng.com  
+
+<p style="margin-bottom:5px">官方邮箱：<span style="color:#d8373c">contact@datameng.com</span></p>  
+<p style="margin-bottom:5px">有关数盟活动赞助，请发邮件至 <span style="color:#d8373c">sponsorship@datameng.com</span></p>
+<p style="margin-bottom:5px">合作伙伴及媒体联络，请发邮件至 <span style="color:#d8373c">partners@datameng.com</span></p>

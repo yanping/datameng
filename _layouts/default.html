@@ -87,16 +87,16 @@ var jiathis_config={
 {% include comment.html %}
 {% include google-analytics.html %}
 <script type="text/javascript">
-      var jq = jQuery.noConflict();
-        jq(document).ready(function(){             
+       
+        $(document).ready(function(){             
 
-            jq('.posts a').each(function(index,element){
-                var href = jq(this).attr('href');
+            $('.posts a').each(function(index,element){
+                var href = $(this).attr('href');
                 if(href.indexOf('#') == 0){
                 }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('datameng.com')>-1 ){
                 }else{
-                    jq(this).attr('target','_blank');
-                    jq(this).addClass('external');
+                    $(this).attr('target','_blank');
+                    $(this).addClass('external');
                 }
             });
            

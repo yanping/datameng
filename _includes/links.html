@@ -1,0 +1,6 @@
+      <div class="content">
+        <div class="bottom-links">
+             	<p style="margin-left:20px;margin-top:15px"><strong>友情连接：</strong>{% for link in site.links %}
+                      <a title="{{ link.title }} " href="{{ site.baseurl}}{{ link.url }}">{{ link.name }} </a>&nbsp;&nbsp;{% endfor %}</p>
+        </div>
+      </div>

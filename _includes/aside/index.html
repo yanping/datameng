@@ -57,8 +57,8 @@
                   </h3>
 {% include aside/recent-posts.html %}
                 </li>
- 
-                <li class="widget widget-sidebar">
+       
+                {% comment %}<li class="widget widget-sidebar">
                   <h3>
                     最近评论
                   </h3>
@@ -70,7 +70,7 @@
                     最近访客
                   </h3>
                   <ul class="ds-recent-visitors"></ul>   
-              </li>
+              </li> {% endcomment %}
 
               <li class="widget widget-sidebar">
                     <h3>
@@ -79,12 +79,12 @@
   {% include aside/weibo.html %}
               </li>
 
-              <li class="widget widget-sidebar">
+               {% comment %}<li class="widget widget-sidebar">
                   <h3>
                     友情链接
                   </h3>
 {% include aside/blogroll.html %}
-              </li>
+              </li> {% endcomment %}
               </ul>
               <ul class="sidebar_rows">
                 <div class="sb_left">

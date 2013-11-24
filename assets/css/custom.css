@@ -102,6 +102,15 @@ body {
  width: 68%;
 }
 
+nav div.mail-list{
+    float: right;
+    padding-top: 5px;
+}
+
+.footer-mail-list{
+  display: none;
+}
+
 @media screen and (max-width:865px){  
     .com-logo{
      width: 100%;
@@ -110,4 +119,13 @@ body {
     .com-intro{
      width: 100%;
     }  
+
+    nav div.mail-list{
+      display:  none;
+    }
+    
+    .footer-mail-list{
+       display: block;
+    }
 }
+

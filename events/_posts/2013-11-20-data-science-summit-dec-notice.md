@@ -20,9 +20,9 @@ img: las.jpg
 14:00-14:45   主题：开源分布式计算平台BGN  嘉宾：蓝汛（ChinaCache）架构师周超勇  
 14:45-15:30   主题：数据挖掘主题 嘉宾：暴风赵修湘  
 15:30-15:45   Show Time环节（每个环节3~5分钟，需提前申请，参会者可自由活动）  
-              ST1: Linear regression on 1 Billion rows airline dataset with R in under 5 minutes;  
-              ST2: Up Coming  
-              ST3: 董西城新书hadoop2.0 yarn发布会  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ST1: Linear regression on 1 Billion rows airline dataset with R in under 5 minutes;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ST2: Up Coming  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ST3: 董西城新书hadoop2.0 yarn发布会  
 15:45-16:30   主题：介绍hadoop 2.0 yarn的基本架构和发展动态 嘉宾：人民搜索董西城  
 16:30-17:15   主题：音乐大数据基础设施建设 嘉宾：数音堂创始人王博龙  
 17:15-17:25   现场问答  
@@ -60,7 +60,6 @@ img: las.jpg
 **周超勇**  蓝汛(ChinaCache)架构师，曾职于于摩托罗拉、爱立信、诺基亚西门子、北京瀚索软件。从事并行和分布式计算领域十多年，开源作品为分布式计算平台BGN，数学科班，精通椭圆曲线密码，多年通信行业行业经验。
 
 **赵修湘** 中国科学院研究生毕业，擅长数据挖掘，曾就职于暴风影音，项目经历：<1>一览视频推荐系统，使用算法：Fptree、ItemBaseCF <2>用户demographic识别，使用算法：bayesian classification <3>亿赞普网站分类系统，使用算法：svm <4>文本分类广告点击分析，使用算法：asocciation rules <5>中科院虚拟经济和数据科学研究中心的软件可信性评估，使用算法：文本分类
-
 
 **董西城** 资深Hadoop技术实践者和研究者，对Hadoop技术有非常深刻的认识和理解，有着丰富的实践经验。曾经参与了商用Hadoop原型的研发，以及人民搜索的分布式日志系统、全网图片搜索引擎、Hadoop调度器等多个项目的设计与研发，实践经验非常丰富。对Hadoop的源代码有深入的研究，能通过修改Hadoop的源代码来完成二次开发和解决各种复杂的问题。热衷于分享，撰写了大量关于Hadoop的技术文章并分享在自己的博客上，由于文章技术含量高，所以非常受欢迎，这使得他在Hadoop技术圈内颇具知名度和影响力。
 

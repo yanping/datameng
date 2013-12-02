@@ -79,12 +79,10 @@ img: las.jpg
 
 联系新加坡是由新加坡经济发展局和人力部共同成立的联盟。我们与国际人才建立联系，并且协助他们到新加坡工作和生活。联系新加坡积极为新加坡本地雇主和专业人士牵线搭桥，为本国支柱产业的发展提供支持。
 
-新浪微博 [@联系新加坡](http://e.weibo.com/contactsingapore)
+新浪微博 [@联系新加坡](http://e.weibo.com/contactsingapore)  
+官方网站 <http://www.contactsingapore.sg>  
+工作机会 <http://www.contactsingapore.sg/jobs>  
 
-官方网站 <http://www.contactsingapore.sg>
-
-工作机会 <http://www.contactsingapore.sg/jobs>
-
-**报名方式**
+**聚会报名**
 
 报名网址： <http://dsu20131214.vasee.com/>
